@@ -18,7 +18,7 @@ const DevChanger = ({ className }) => {
         También puedes
         <SecondaryButton onClick={changeUsername}>
           Ver los
-          {user.devToUsername === "alison304" ? "de mi trabajo" : "míos"}
+          {user.devToUsername === "alison304" ? " de mi trabajo" : " míos"}
         </SecondaryButton>
       </p>
     </div>
